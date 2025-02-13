@@ -1,3 +1,5 @@
+import "../fetchProjects";
+
 const Projects = () => {
   return (
     <div className="flex flex-col items-center h-screen bg-gray-200">
