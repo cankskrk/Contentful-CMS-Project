@@ -1,6 +1,6 @@
 # Contentful CMS Project
 
-This project is built using **Contentful CMS, TypeScript, and Tailwind CSS**.
+This project is built using **React, Contentful CMS, TypeScript, and Tailwind CSS**.
 
 ## 📌 Project Purpose
 
@@ -12,12 +12,14 @@ The goal of this project was to store data using a **CMS (Contentful)** and retr
 - **Data Fetching**: Retrieves and displays project data dynamically using the Contentful API.
 - **Modern UI**: Styled using **Tailwind CSS** for a clean and responsive design.
 - **TypeScript**: Ensures type safety and maintainability.
+- **React Components**: Modular and reusable UI components built with **React**.
 
 ## 📂 How It Works
 
 1. Created a **content model** in **Contentful CMS** to store previously developed and published project details.
 2. Used the **Contentful API** to fetch project data dynamically.
-3. Displayed the retrieved data on the website, allowing users to view published projects.
+3. Developed a **React-based UI** to display the retrieved data in a structured format.
+4. Styled the application using **Tailwind CSS** for a responsive and minimalistic design.
 
 ## 🔗 Live Demo
 
@@ -37,6 +39,7 @@ You can access my published projects from this website.
 
 ### 🛠️ Technologies Used
 
+- **React** - Component-based UI development
 - **Contentful CMS** - Headless CMS for content storage
 - **TypeScript** - Static typing and better code maintainability
 - **Tailwind CSS** - Utility-first styling for responsive design
