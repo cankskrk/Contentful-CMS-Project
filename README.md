@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# Contentful CMS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using **Contentful CMS, TypeScript, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 📌 Project Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this project was to store data using a **CMS (Contentful)** and retrieve it dynamically via the **Contentful CMS API**. This allows for easy content management and scalability.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Content Management**: All project information is stored in Contentful CMS.
+- **Data Fetching**: Retrieves and displays project data dynamically using the Contentful API.
+- **Modern UI**: Styled using **Tailwind CSS** for a clean and responsive design.
+- **TypeScript**: Ensures type safety and maintainability.
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 How It Works
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Created a **content model** in **Contentful CMS** to store previously developed and published project details.
+2. Used the **Contentful API** to fetch project data dynamically.
+3. Displayed the retrieved data on the website, allowing users to view published projects.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🔗 Live Demo
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+You can access my published projects from this website.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🖼️ Screenshots
+
+### Homepage View
+
+![Screenshot 1](public/screenshot1.png)
+
+### Projects Section
+
+![Screenshot 2](public/screenshot2.png)
+
+---
+
+### 🛠️ Technologies Used
+
+- **Contentful CMS** - Headless CMS for content storage
+- **TypeScript** - Static typing and better code maintainability
+- **Tailwind CSS** - Utility-first styling for responsive design
+
+Feel free to explore the project and let me know your thoughts! 🚀
